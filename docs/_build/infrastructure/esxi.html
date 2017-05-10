@@ -1,0 +1,208 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>ESXi &#8212; Calvin&#39;s Docs  documentation</title>
+    
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="pfSense" href="../network/pfsense.html" />
+    <link rel="prev" title="Welcome to Calvin’s documentation!" href="../index.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="esxi">
+<h1>ESXi<a class="headerlink" href="#esxi" title="Permalink to this headline">¶</a></h1>
+<table border="1" class="docutils">
+<colgroup>
+<col width="49%" />
+<col width="51%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td colspan="2"><strong>Networking</strong></td>
+</tr>
+<tr class="row-even"><td>Hostname</td>
+<td>esxi</td>
+</tr>
+<tr class="row-odd"><td>IP</td>
+<td>10.0.0.3</td>
+</tr>
+<tr class="row-even"><td>Website</td>
+<td><a class="reference external" href="https://10.0.0.3">https://10.0.0.3</a></td>
+</tr>
+<tr class="row-odd"><td colspan="2"><strong>Software</strong></td>
+</tr>
+<tr class="row-even"><td>Version</td>
+<td>6.5d</td>
+</tr>
+<tr class="row-odd"><td>Last Updated</td>
+<td>May 2017</td>
+</tr>
+<tr class="row-even"><td colspan="2"><strong>Hardware</strong></td>
+</tr>
+<tr class="row-odd"><td>CPU</td>
+<td>E3-1230v3</td>
+</tr>
+<tr class="row-even"><td>Memory</td>
+<td>32GB DDR3</td>
+</tr>
+</tbody>
+</table>
+<p>Currently installed on a 16GB Cruzer Blade (mpx.vmhba32:C0:T0:L0)</p>
+<div class="section" id="update-esxi">
+<h2>Update ESXi<a class="headerlink" href="#update-esxi" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://esxi-patches.v-front.de/">Go here</a> and click on the latest Imageprofile</p>
+</div>
+<div class="section" id="licenses">
+<h2>Licenses<a class="headerlink" href="#licenses" title="Permalink to this headline">¶</a></h2>
+<p>ESXi 6.0 FREE License from VMware, works with 6.5</p>
+<p>(Decrypt with OpenSSL)</p>
+<p><code class="docutils literal"><span class="pre">U2FsdGVkX1/7Sozs6M4f650PqfEPMSXY4ts26Cir8D4lA3rPMm9LiQXNetw9yqNX</span></code></p>
+</div>
+<div class="section" id="vswitchs">
+<h2>vSwitchs<a class="headerlink" href="#vswitchs" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="vswitch-0">
+<h3>vSwitch 0<a class="headerlink" href="#vswitch-0" title="Permalink to this headline">¶</a></h3>
+<img alt="../_images/vswitch0.png" src="../_images/vswitch0.png" />
+<ul class="simple">
+<li>All port groups are set to <strong>Route Based on IP Hash</strong></li>
+</ul>
+</div>
+<div class="section" id="vswitch-1">
+<h3>vSwitch 1<a class="headerlink" href="#vswitch-1" title="Permalink to this headline">¶</a></h3>
+<img alt="../_images/vswitch1.png" src="../_images/vswitch1.png" />
+</div>
+<div class="section" id="vswitch-2">
+<h3>vSwitch 2<a class="headerlink" href="#vswitch-2" title="Permalink to this headline">¶</a></h3>
+<img alt="../_images/vswitch2.png" src="../_images/vswitch2.png" />
+</div>
+<div class="section" id="vswitch-3">
+<h3>vSwitch 3<a class="headerlink" href="#vswitch-3" title="Permalink to this headline">¶</a></h3>
+<img alt="../_images/vswitch3.png" src="../_images/vswitch3.png" />
+</div>
+</div>
+<div class="section" id="storage">
+<h2>Storage<a class="headerlink" href="#storage" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>HDD (10.0.0.5:/mnt/hdd)</li>
+<li>SSD (10.0.0.5:/mnt/ssd)</li>
+<li>RECORDING</li>
+<li>ZFS0 - dc, pfsense and freenas main drive</li>
+<li>ZFS1 - dc, pfsense and freenas mirrored</li>
+</ul>
+</div>
+<div class="section" id="vm-startup-and-shutdown">
+<h2>VM Startup and Shutdown<a class="headerlink" href="#vm-startup-and-shutdown" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li>dc</li>
+<li>pfsense</li>
+<li>freenas (180 seconds)</li>
+<li>ups</li>
+<li>vms</li>
+<li>the rest</li>
+</ol>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">ESXi</a><ul>
+<li><a class="reference internal" href="#update-esxi">Update ESXi</a></li>
+<li><a class="reference internal" href="#licenses">Licenses</a></li>
+<li><a class="reference internal" href="#vswitchs">vSwitchs</a><ul>
+<li><a class="reference internal" href="#vswitch-0">vSwitch 0</a></li>
+<li><a class="reference internal" href="#vswitch-1">vSwitch 1</a></li>
+<li><a class="reference internal" href="#vswitch-2">vSwitch 2</a></li>
+<li><a class="reference internal" href="#vswitch-3">vSwitch 3</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#storage">Storage</a></li>
+<li><a class="reference internal" href="#vm-startup-and-shutdown">VM Startup and Shutdown</a></li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="../index.html" title="previous chapter">Welcome to Calvin&#8217;s documentation!</a></li>
+      <li>Next: <a href="../network/pfsense.html" title="next chapter">pfSense</a></li>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/infrastructure/esxi.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2017, Calvin Bui.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.5.5</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      
+      |
+      <a href="../_sources/infrastructure/esxi.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
