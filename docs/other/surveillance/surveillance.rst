@@ -88,6 +88,8 @@ http://www.tp-link.com.au/download/TL-SG2210P.html#Firmware
 
 Firmware: 160912 (12/09/16)
 
+Configuration backup available on GitHub https://github.com/calvinbui/documentation/blob/master/docs/other/surveillance/switch.cfg
+
 Remote Access and Network Ports
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 To allow remote access, the gateway of the server is on DMZ (10.0.9.1).
