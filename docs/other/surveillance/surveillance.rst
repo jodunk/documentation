@@ -73,7 +73,7 @@ Each image is prefixed with its name.
 Networking
 -----------
 
-.. image:: network.png
+.. image:: /other/surveillance/network.png
 
 Switch
 ^^^^^^^^^^

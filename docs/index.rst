@@ -35,7 +35,7 @@ Calvin's Documentation
 
 .. toctree::
   :maxdepth: 1
-  :caption: Hardware:
+  :caption: Tools:
 
   tools/ipmi/ipmi
   tools/usenet/usenet

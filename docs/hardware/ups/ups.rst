@@ -62,4 +62,4 @@ Commands
 Shutdown Settings
 ------------------
 
-.. image:: shutdown.png
+.. image:: /hardware/ups/shutdown.png

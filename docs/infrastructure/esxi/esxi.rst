@@ -43,24 +43,24 @@ vSwitchs
 vSwitch 0
 ^^^^^^^^^^^
 
-.. image:: vswitch0.png
+.. image:: /infrastructure/esxi/vswitch0.png
 
 * All port groups are set to **Route Based on IP Hash**
 
 vSwitch 1
 ^^^^^^^^^^^
 
-.. image:: vswitch1.png
+.. image:: /infrastructure/esxi/vswitch1.png
 
 vSwitch 2
 ^^^^^^^^^^^
 
-.. image:: vswitch2.png
+.. image:: /infrastructure/esxi/vswitch2.png
 
 vSwitch 3
 ^^^^^^^^^^^
 
-.. image:: vswitch3.png
+.. image:: /infrastructure/esxi/vswitch3.png
 
 Storage
 --------
