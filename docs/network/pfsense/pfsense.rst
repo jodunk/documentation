@@ -43,17 +43,17 @@ Packages
 Firewall Rules
 ---------------
 
-.. image:: firewall.png
+.. image:: ./firewall.png
 
 DNS Entries
 ------------
 
-.. image:: dns.png
+.. image:: ./dns.png
 
 Dynamic DNS
 ------------
 
-.. image:: dynamicdns.png
+.. image:: ./dynamicdns.png
 
 Snort Suppress
 --------------
