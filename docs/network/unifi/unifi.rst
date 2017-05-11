@@ -38,7 +38,7 @@ Deployed using https://github.com/calvinbui/ansible-unifi
 Wireless Networks
 ------------------
 
-.. image:: unifi/wireless.png
+.. image:: wireless.png
 
 RADIUS
 -------

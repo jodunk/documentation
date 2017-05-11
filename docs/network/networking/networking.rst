@@ -21,3 +21,17 @@ Ubuntu
  broadcast 10.0.1.255
  gateway 10.0.0.1
  dns-nameservers 10.0.0.1
+
+
+CentOS
+---------
+
+``/etc/sysconfig/network-scripts/ifcfg-eth0`` ::
+
+  DEVICE="eth0"
+  ONBOOT=yes
+  TYPE=Ethernet
+  BOOTPROTO=static
+  NAME="System eth0"
+  IPADDR=10.0.0.9
+  NETMASK=255.255.254.0

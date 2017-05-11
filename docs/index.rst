@@ -10,23 +10,38 @@ Calvin's Documentation
    :maxdepth: 1
    :caption: Infrastructure:
 
-   infrastructure/esxi
-   infrastructure/domaincontroller
+   infrastructure/esxi/esxi
+   infrastructure/freenas/freenas
+   infrastructure/domaincontroller/domaincontroller
 
 .. toctree::
   :maxdepth: 1
   :caption: Network:
 
-  network/networking
-  network/pfsense
-  network/telstra
-  network/switch
-  network/unifi
+  network/networking/networking
+  network/pfsense/pfsense
+  network/telstra/telstra
+  network/switch/switch
+  network/unifi/unifi
+  network/openvpn/openvpn
 
+.. toctree::
+  :maxdepth: 1
+  :caption: Hardware:
 
-Indices and tables
-==================
+  hardware/server/server
+  hardware/printer/printer
+  hardware/ups/ups
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. toctree::
+  :maxdepth: 1
+  :caption: Hardware:
+
+  tools/ipmi/ipmi
+  tools/usenet/usenet
+
+.. toctree::
+  :maxdepth: 1
+  :caption: Other:
+
+  other/surveillance/surveillance

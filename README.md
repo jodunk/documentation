@@ -1,27 +1,25 @@
-Sphinx is a tool that makes it easy to create beautiful documentation.
+# Calvin's Documentation
+
+This is my personal documentation written in Sphinx!
+
+It is hosted on Read the Docs at [http://calvin.rtfd.io](http://calvin.rtfd.io).
+
+## Install Sphinx
+
 Assuming you have Python already, install Sphinx:
 
-```
-$ pip install sphinx sphinx-autobuild
-```
+`$ pip install sphinx sphinx-autobuild sphinx_rtd_theme`
 
-Create a directory inside your project to hold your docs::
+## Decrypt and Encrypt using OpenSSL
 
-```
-$ cd /path/to/project
-$ mkdir docs
-```
+I have encrypted secrets using OpenSSL.
 
-Run `sphinx-quickstart` in there::
+To decrypt them:
 
-```
-$ cd docs
-$ sphinx-quickstart
-```
+`cat filename | openssl enc -d -aes-256-cbc -a -salt`
+`echo secret | openssl enc -d -aes-256-cbc -a -salt`
 
+To encrypt secrets:
 
-Decrypt and Encrypt using OpenSSL:
-
-echo abc | openssl enc -e -aes-256-cbc -a -salt
-
-echo asdgewewessad | openssl enc -d -aes-256-cbc -a -salt
+`echo password | openssl enc -e -aes-256-cbc -a -salt`
+`cat privatekey | openssl enc -e -aes-256-cbc -a -salt`
