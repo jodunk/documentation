@@ -42,7 +42,7 @@ There are currently four Hikvision DS-2CD2335-I cameras. Two are 2.8mm (wide) an
 
 Use Hikvision SADPTool to configure from factory
 
-.. image:: /other/surveillance/ca,era=settings.png
+.. image:: /other/surveillance/camera-settings.png
 
 Milestone XProtect Essential
 -----------------------------
