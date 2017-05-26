@@ -42,6 +42,8 @@ There are currently four Hikvision DS-2CD2335-I cameras. Two are 2.8mm (wide) an
 
 Use Hikvision SADPTool to configure from factory
 
+.. image:: /other/surveillance/ca,era=settings.png
+
 Milestone XProtect Essential
 -----------------------------
 Milestone XProtect Essential is the free VMS being used.
@@ -53,7 +55,13 @@ Limitations include:
 * Popups
 * Logo on video exports
 
+
+Storage
+^^^^^^^^^^
+
 Milestone does not allow writing to a network share. Therefore it records to the S:\ directory which is on the HDD datastore (inside Misc\\Surveillance VM).
+
+The recording drive is a 250GB vDisk on the SSD share (2x Samsung 850 Pros)
 
 Motion Detection
 ------------------
