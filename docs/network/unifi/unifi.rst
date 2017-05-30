@@ -35,6 +35,15 @@ Installation
 --------------
 Deployed using https://github.com/calvinbui/ansible-unifi
 
+Access Point
+---------
+
+Model: UniFi AP-AC v2
+
+IP Address: 10.0.0.7
+
+Version: 3.7.58.6385
+
 Wireless Networks
 ------------------
 
