@@ -59,22 +59,22 @@ Limitations include:
 Storage
 ^^^^^^^^^^
 
-Milestone does not allow writing to a network share. Therefore it records to the S:\ directory which is on the HDD datastore (inside Misc\\Surveillance VM).
+SSD (C:\\) provides the OS and Milestone software.
 
-The recording drive is a 250GB vDisk on the SSD share (2x Samsung 850 Pros)
+A Seagate Skyhawk 8TB (D:\\) drive holds the recording files and archive storage.
 
 Motion Detection
 ------------------
 
-Motion detection is handled by the cameras internally. They are then FTP'd to the server which is running Filezilla under the hikvision username.
+Motion detection is handled by the cameras internally. They are then FTP'd to the server which is running FileZilla under the hikvision username. The path shared is D:\\OneDrive\\Surveillance.
 
 This is then uploaded to OneDrive.
 
-This script is run daily by Windows Task Scheduler to delete pictures older than 14 days old
+This script (D:\\remove_old_pictures.bat) is run daily by Windows Task Scheduler to delete pictures older than 14 days old.
 
 .. code-block:: none
 
-  forfiles /P "S:\Motion Capture\OneDrive\Surveillance" /D -14 /C "cmd /c del @path"
+  forfiles /P "D:\\OneDrive\\Surveillance" /D -14 /C "cmd /c del @path"
 
 Each image is prefixed with its name.
 
