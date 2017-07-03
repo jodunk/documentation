@@ -16,16 +16,18 @@ Assuming you have Python already, install Sphinx:
 
 With everything installed, click on serve.bat for an auto-builder.
 
+After it's built, go to [http://localhost:8000](http://localhost:8000).
+
 ## Decrypt and Encrypt using OpenSSL
 
 I have encrypted secrets using OpenSSL.
 
 To decrypt them:
 
-`cat filename | openssl enc -d -aes-256-cbc -a -salt`
+`cat secret.txt | openssl enc -d -aes-256-cbc -a -salt`
 `echo secret | openssl enc -d -aes-256-cbc -a -salt`
 
 To encrypt secrets:
 
-`echo password | openssl enc -e -aes-256-cbc -a -salt`
-`cat privatekey | openssl enc -e -aes-256-cbc -a -salt`
+`cat secret.txt | openssl enc -e -aes-256-cbc -a -salt`
+`echo secret | openssl enc -e -aes-256-cbc -a -salt`
