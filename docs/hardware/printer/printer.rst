@@ -12,17 +12,23 @@ Printer
 +-------------------+--------------------+
 | **Software**                           |
 +-------------------+--------------------+
-| Version           | 20140616           |
+| Version           | 05/25/2017 X/1.09/N|
 +-------------------+--------------------+
-| Last Updated      | July 2015          |
+| Last Updated      | July 2018          |
 +-------------------+--------------------+
 
-HP LaserJet CP1525nw
+Details: https://www.brother.com.au/colour-laser-led-mfc/mfc-9340cdw-detail
 
-Product Model: CE875A
+Model Name: Brother MFC-9340CDW
 
-Product Name: HP LaserJet Pro CP1525nw Color Printer
+Serial: (Decrypt with OpenSSL) ``U2FsdGVkX18NmwQdTvTXTmjxhyCndpc6zeVd/6007nIze99CUsJe4aV/b03HMaD7``
 
-Product Serial Number: CNCH100847
+Main Firmware Version: X
 
-Purchased: 08/12/2011
+Sub1 Firmware Version: 1.09
+
+Sub2 Firmware Version: N1607192100
+
+Memory Size: 256MB
+
+Purchased 30/06/2017 from Mediaform Computer Supplies Pty Ltd on eBay
