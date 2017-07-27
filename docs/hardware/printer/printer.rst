@@ -14,7 +14,7 @@ Printer
 +-------------------+--------------------+
 | Version           | 05/25/2017 X/1.09/N|
 +-------------------+--------------------+
-| Last Updated      | July 2018          |
+| Last Updated      | July 2017          |
 +-------------------+--------------------+
 
 Details: https://www.brother.com.au/colour-laser-led-mfc/mfc-9340cdw-detail
