@@ -34,7 +34,6 @@ Surveillance
 Cameras
 --------
 There are currently four Hikvision DS-2CD2335-I cameras. Two are 2.8mm (wide) and two are 4.0mm (narrow).
-
 * cam-backyard 10.0.3.7 (wide - 2.8mm)
 * cam-driveway 10.0.3.8
 * cam-frontyard 10.0.3.6 (wide - 2.8mm)
@@ -43,6 +42,14 @@ There are currently four Hikvision DS-2CD2335-I cameras. Two are 2.8mm (wide) an
 Use Hikvision SADPTool to configure from factory
 
 .. image:: /other/surveillance/camera-settings.png
+
+There is one **Xiaomi Xiaofang Camera** in my room. It is on the Admin network as it connects over Wi-Fi. The Xiaofang camera has hacks applied to it from https://github.com/samtap/fang-hacks which allows it to provide an RTSP feed to Milestone. The default credentials are root:ismart12.
+
+* cam-xiaofang 10.0.1.129
+
+Special firewall rules are also in place to allow a connection from the Milestone server to the camera.
+
+.. image:: /other/surveillance/xiaofang-firewall.png
 
 Milestone XProtect Essential
 -----------------------------
