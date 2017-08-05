@@ -43,7 +43,7 @@ Use Hikvision SADPTool to configure from factory
 
 .. image:: /other/surveillance/camera-settings.png
 
-There is one **Xiaomi Xiaofang Camera** in my room. It is on the Admin network as it connects over Wi-Fi. The Xiaofang camera has hacks applied to it from https://github.com/samtap/fang-hacks which allows it to provide an RTSP feed to Milestone. The default credentials are root:ismart12.
+There is one **Xiaomi Xiaofang Camera** in my room. It is on the Admin network as it connects over Wi-Fi. The Xiaofang camera has hacks applied to it from https://github.com/samtap/fang-hacks which allows it to provide an RTSP feed to Milestone, via VLC. The default credentials are root:ismart12.
 
 * cam-xiaofang 10.0.1.129
 
