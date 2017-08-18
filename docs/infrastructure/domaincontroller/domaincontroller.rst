@@ -12,9 +12,9 @@ Domain Controller
 +-------------------+--------------------+
 | **Software**                           |
 +-------------------+--------------------+
-| OS                | Windows 2012 R2    |
+| OS                | Windows 2016       |
 +-------------------+--------------------+
-| Last Updated      | July 2015          |
+| Last Updated      | August 2017        |
 +-------------------+--------------------+
 | **Hardware**                           |
 +-------------------+--------------------+
@@ -24,7 +24,7 @@ Domain Controller
 +-------------------+--------------------+
 | Network           | Admin + DMZ        |
 +-------------------+--------------------+
-| Storage           |41GB (mirror ZFS0/1)|
+| Storage           |80GB (mirror ZFS0/1)|
 +-------------------+--------------------+
 
 Domain Controller, Active Directory, RADIUS server, Certificate Authority and DNS.
