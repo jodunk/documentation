@@ -14,26 +14,27 @@ Surveillance
 +-------------------+--------------------+
 | **Software**                           |
 +-------------------+--------------------+
-| OS                | Windows 10 LTSB    |
+| OS                | Windows 10         |
 +-------------------+--------------------+
-| Version           | Milestone 10.2a    |
+| Version           | Milestone 2017 R3  |
 +-------------------+--------------------+
-| Last Updated      | September 2016     |
+| Last Updated      | December 2017      |
 +-------------------+--------------------+
 | **Hardware**                           |
 +-------------------+--------------------+
-| CPU               | 4                  |
+| CPU               | 1                  |
 +-------------------+--------------------+
-| Memory            | 2GB                |
+| Memory            | 4GB                |
 +-------------------+--------------------+
-| Network           | DMZ                |
+| Network           | CAM, DMZ           |
 +-------------------+--------------------+
-| Storage           | 100GB (SSD, thin)  |
+| Storage           | 80GB (SSD, thin)   |
 +-------------------+--------------------+
 
 Cameras
 --------
 There are currently four Hikvision DS-2CD2335-I cameras. Two are 2.8mm (wide) and two are 4.0mm (narrow).
+
 * cam-backyard 10.0.3.7 (wide - 2.8mm)
 * cam-driveway 10.0.3.8
 * cam-frontyard 10.0.3.6 (wide - 2.8mm)
@@ -69,6 +70,9 @@ Settings
 XProtect Essential 2016 R3
 25 day retention (3 for Xiaofang)
 15FPS
+7680 Bitrate (Variable)
+H264
+Resolution 2048 * 1536
 
 
 Storage
