@@ -63,6 +63,14 @@ Limitations include:
 * Logo on video exports
 
 
+Settings
+^^^^^^^^^^
+
+XProtect Essential 2016 R3
+25 day retention (3 for Xiaofang)
+15FPS
+
+
 Storage
 ^^^^^^^^^^
 
